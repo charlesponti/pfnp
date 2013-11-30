@@ -50,7 +50,7 @@
 
 	## Box Model
 		### Padding
-			* Declares how much whitespace there will be between the content inside of an element and the elements border
+			* Declares how much whitespace there will be between the content inside of a element and the elements border
 		### Margin
 			* Declares how far away from other elements the element will be
 			* You can use { margin: 0 auto } to horizontally center an element
@@ -59,8 +59,7 @@
 	## Color
 		### RGB
 		 	* Example: rgb(0,0,0)
-			*	This is three number representation of colors. The first number is for red, the
-				second is for green, and the third is for blue. Each number can go from 0 to 255. The larger the number, the more that color will be represented.
+			*	This is three number representation of colors. The first number is for red, the second is for green, and the third is for blue. Each number can go from 0 to 255. The larger the number, the more that color will be represented.
 
 		### RGBA
 			* Example: rgba(0,0,0,0.8)
@@ -68,8 +67,7 @@
 				transparency of the color.
 
 		### HEX
-			* Six-digit, three-byte hexadecimal number used in HTML, CSS, SVG, and other
-				computing applications, to represent colors. The bytes represent the red, green and blue components of the color. One byte represents a number in the range 00 to FF (in hexadecimal notation), or 0 to 255 in decimal notation. This represents the least (0) to the most (255) intensity of each of the color components
+			* Six-digit, three-byte hexadecimal number used in HTML, CSS, SVG, and other computing applications, to represent colors. The bytes represent the red, green and blue components of the color. One byte represents a number in the range 00 to FF (in hexadecimal notation), or 0 to 255 in decimal notation. This represents the least (0) to the most (255) intensity of each of the color components
 
 	## Background
 		* For a color: { background: colorname  } or { background-color: colorname }
@@ -80,9 +78,24 @@
 				background-attachment: fixed;
 			}
 
+	## Positioning and Type
+		### Display
+			* specifies the type of box used for the element
+		### Position
+			#### Static
+				* this is the default for elements
+			#### Relative
+				* this positions an element relative to its parent
+			#### Absolute
+				* this positions an element in one area of the page, or the first parent element whose position is set to relative, and sits on top of all other items. It can sit below other items by changing it's z-index.
+		### Float
+			* pushs an element left or right and allows other elements to wrap around them
+		### Clear
+			* specifies which sides of an element where other floating elements are not allowed
+
 	## Tools:
-		* colorpicker.com
-			Allows you to pick any color, providing both the HEX and RGB codes
+		### colorpicker.com
+			* Allows you to pick any color, providing both the HEX and RGB codes
 
 	## Best Practices
 		* Put element rules in the same order that the elements appear in the HTML
