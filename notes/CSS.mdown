@@ -2,8 +2,8 @@
 
 ## Defining a rule
 ```css
-selector: {
-	property: value
+body {
+	color: black;
 }
 ```
 
@@ -11,7 +11,7 @@ or
 
 ```css
 .classname {
-property: value
+	font-size: 16px;
 }
 ```
 
@@ -19,7 +19,9 @@ property: value
 * Declare font to use:
 
 ```css
-{ font-family: fontname }
+body {
+	font-family: Helvetica;
+}
 ```
 
 ### Web Safe Fonts
@@ -46,26 +48,41 @@ property: value
 * font-weight: declared as a number between 100 and 900; the higher the number, the more bold the text will be.
 
 ## Size
+
 ### Pixel
 * Example: 10px
 * Number of pixels the element will take up
+
 ### Percentage
 * Example: 10%
 * Percentage of the parent element
 	* NOTE: If you are defining the width or height of an element in percentage, its parent element must have it's width or height set.
+
 ### EM
-* Example: 1em
+```css
+body {
+	font-size: 1em;
+}
+```
 * 1em is equal to the default font size of the webpage ( usually 16px )
 
 ## Box Model
+
 ### Padding
 * Declares how much whitespace there will be between the content inside of a element and the elements border
+
 ### Margin
 * Declares how far away from other elements the element will be
-* You can use { margin: 0 auto } to horizontally center an element
+* To horizontally center an element within it's parent element, use:
+```css
+.element {
+	margin: 0 auto;
+}
+```
 * NOTE: Both of the above can be defined in either pixels, percentage, or em
 
 ## Color
+
 ### RGB
 ```css
 .classname {
@@ -93,8 +110,9 @@ property: value
 .classname {
 	background: /* name of color */;
 } or { background-color: colorname }
-* For an image:
+```
 
+* For an image:
 ```css
 .classnmae {
 	background: url(path/to/image)
@@ -102,7 +120,6 @@ property: value
 ```
 
 * To stretch background to the size of the user's browser window, use:
-
 ```css
 .classname {
 	background-size: cover;
