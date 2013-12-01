@@ -1,12 +1,35 @@
 # Javascript
 
 	## How does it work?
-		* Prototypical
+		### Prototypical
 			* Javascript does not have classes, so instead it uses functions that can be reproduced with the 'new' keyword (Ex. var x = new Person()) and can be extended with new properties with the '.prototype' function (Ex. Person.prototype.hairColor = 'black')
-		* Linear
+		### Linear
 			* One process happens one after another, line by line
-		* Storage:
+		### Storage:
 			* JavaScript programs run in memory and can access different types of local storage that exists within the user's browser
+
+	## Data Types:
+		### String
+			EXAMPLE: 'hello'
+			* can be declared using either single or double quotes
+			* If you are writing a string that has quotes within it, you can use escaping by using a \
+				EXAMPLE: 'She\'ll be here soon'
+
+		### Number
+			EXAMPLE: 1
+			#### Int
+				EXAMPLE: 42
+			#### Float
+				EXAMPLE: 42.99
+			* It's important to note that all numbers, even if they do not have a decimal point, are considered floats which can make working with prices, for example, a bit tricky
+
+
+		### Boolean
+			* either true or false
+
+	## null versus undefined
+		* undefined is assigned to variables that have been declared but do not have a value set to them. Functions that do not have a return value will return undefined
+		* null can be assigned to a variable
 
 	## Variables
 		EXAMPLE: var x = value;
@@ -20,10 +43,21 @@
 
 		* used to store lists of values
 
+	## Objects
+		EXAMPLE: var x = { cat: 'feline', dog: 'canine' }
+
+		* used to organize data into key-value pairs
+		* the keys in an object can be assigned to any data type, including another object
+		* Values inside of an object are accessed through their keys. You can do this in two ways:
+			* x["cat"] /** returns feline */
+			* x.cat /** returns feline */
+
 	## Functions
 		EXAMPLE: var functionName = function (arguments) {
 								/** code to execute */
 							};
+		* Variables declared inside of a function is only accessible within that funciton, while variables declared outside of functions in the global scope are accessible within any function
+
 	## Logging
 		EXAMPLE: console.log("Hello World");
 
@@ -34,6 +68,14 @@
 		EXAMPLE:  var userAge = prompt('What is your age?')
 
 		* Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
+
+	## Converting values
+		### String -> Number
+			* Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
+			EXAMPLE: parseInt('42') /** returns 42 */
+		### Number -> String
+			* Numbers can be converted into strings using .toString()
+			EXAMPLE: 42.toString(); /** returns '42' */
 
 	## jQuery
 		* calls to jQuery functions can begin with either $ or jQuery
