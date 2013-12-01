@@ -1,0 +1,20 @@
+## What is programming?
+
+	### What to look for in a language
+		* Community support
+			* Stack Overflow
+		* Difficulty level
+		* Development time
+		* Is what you want to accomplish going to happen on the front-end or the back-end?
+
+	### Front-End Versus Back-End
+		* Front-End:
+			* structured content, styleing and behaviour
+			* Template: HTML
+			* Style: CSS
+			* Behaviour: JavaScript
+			* Frameworks: jQuery, Angular, etc.
+
+		* Back-End languages: Ruby, Python, PHP, etc.
+			* preparation of the structured content that is delivered to the client, storing user input
+			* Frameworks: Ruby on Rails, Django, etc.
