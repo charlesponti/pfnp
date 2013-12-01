@@ -1,10 +1,39 @@
 # Javascript
 
 	## How does it work?
+		* Prototypical
+			* Javascript does not have classes, so instead it uses functions that can be reproduced with the 'new' keyword (Ex. var x = new Person()) and can be extended with new properties with the '.prototype' function (Ex. Person.prototype.hairColor = 'black')
 		* Linear
 			* One process happens one after another, line by line
 		* Storage:
 			* JavaScript programs run in memory and can access different types of local storage that exists within the user's browser
+
+	## Variables
+		EXAMPLE: var x = value;
+
+		* used to store values, which can be strings, arrays, objects, functions, or boolean values
+		* You can also declare a variable without an initial value for later use
+			EXAMPLE: var x;
+
+	## Array
+		EXAMPLE: var x = [1,2,3,'hello', true];
+
+		* used to store lists of values
+
+	## Functions
+		EXAMPLE: var functionName = function (arguments) {
+								/** code to execute */
+							};
+	## Logging
+		EXAMPLE: console.log("Hello World");
+
+	## Alert
+		EXAMPLE: alert("Foo Bar");
+
+	## Prompt
+		EXAMPLE:  var userAge = prompt('What is your age?')
+
+		* Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
 
 	## jQuery
 		* calls to jQuery functions can begin with either $ or jQuery
