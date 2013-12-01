@@ -1,34 +1,35 @@
 # PROGRAMMING FOR NON*PROGRAMMERS
 
-	* Different browsers render pages differently due to them having different rendering engines such as Webkit on Safari and Chrome
+* Different browsers render pages differently due to them having different rendering engines such as Webkit on Safari and Chrome
 
 ## What Do Programs Actually Do?
-	* Keep track of values (Variables)
-	* Making decisions (if*>else)
-	* Repeating things (For and While loops)
-	* Storing things (Databases such as PostgreSQL and MongoDB)
+* Keep track of values (Variables)
+* Making decisions (if*>else)
+* Repeating things (For and While loops)
+* Storing things (Databases such as PostgreSQL and MongoDB)
 
 ## Project Processes:
-	* Waterfall: Do one stage of the development process at a time, never to go back and repeat a previous step
-	* Agile: Allows developers to jump from one stage to another and back again depending on what is needed to complete the job.
+* Waterfall: Do one stage of the development process at a time, never to go back and repeat a previous step
+* Agile: Allows developers to jump from one stage to another and back again depending on what is needed to complete the job.
 
 ## Stages of Web Development
-	### Design
-		* User Experience: Meshing together your business needs with the user's needs, following the best practices
-			* User Researcher: Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
-			* Information Architect(IA): Defines the structure of the system, how content is described, organized, and discovered
-			* Interaction Designer(IxD)
-		* Wireframing (OmniGraffle & Wireframe.cc)
-		* Photoshop
-		* Why, Who, What, Where, When, How
-	### Development
-	### Testing
+### Design
+* User Experience: Meshing together your business needs with the user's needs, following the best practices
+	* User Researcher: Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
+	* Information Architect(IA): Defines the structure of the system, how content is described, organized, and discovered
+	* Interaction Designer(IxD)
+* Wireframing (OmniGraffle & Wireframe.cc)
+* Photoshop
+* Why, Who, What, Where, When, How
+
+### Development
+### Testing
 
 # Best Practices
-	* D.R.Y: Don't Repeat Yourself
-	* Commenting
-	* Testing
-	* Seperation of Concerns
-	* Test
+* D.R.Y: Don't Repeat Yourself
+* Commenting
+* Testing
+* Seperation of Concerns
+* Test
 
 

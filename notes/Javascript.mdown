@@ -3,13 +3,13 @@
 ## How does it work?
 
 ### Prototypical
-	* Javascript does not have classes, so instead it uses functions that can be reproduced with the 'new' keyword (Ex. var x = new Person()) and can be extended with new properties with the '.prototype' function (Ex. Person.prototype.hairColor = 'black')
+* Javascript does not have classes, so instead it uses functions that can be reproduced with the 'new' keyword (Ex. var x = new Person()) and can be extended with new properties with the '.prototype' function (Ex. Person.prototype.hairColor = 'black')
 
 ### Linear
-	* One process happens one after another, line by line
+* One process happens one after another, line by line
 
 ### Storage:
-	* JavaScript programs run in memory and can access different types of local storage that exists within the user's browser
+* JavaScript programs run in memory and can access different types of local storage that exists within the user's browser
 
 ## Data Types:
 
@@ -19,113 +19,118 @@ EXAMPLE: 'hello'
 
 * can be declared using either single or double quotes
 * If you are writing a string that has quotes within it, you can use escaping by using a backslash( \ ).
-	EXAMPLE: 'She\'ll be here soon'
+EXAMPLE: 'She\'ll be here soon'
 
 ### Number
-	EXAMPLE: 1
+EXAMPLE: 1
 
 #### Int
-	EXAMPLE: 42
+EXAMPLE: 42
 
 #### Float
-	EXAMPLE: 42.99
+EXAMPLE: 42.99
 
 * It's important to note that all numbers, even if they do not have a decimal point, are considered floats which can make working with prices, for example, a bit tricky
 
 
 ### Boolean
-	* either true or false
+* either true or false
 
 ## null versus undefined
-	* undefined is assigned to variables that have been declared but do not have a value set to them. Functions that do not have a return value will return undefined
-	* null can be assigned to a variable
+* undefined is assigned to variables that have been declared but do not have a value set to them. Functions that do not have a return value will return undefined
+* null can be assigned to a variable
 
 ## Variables
-	EXAMPLE: var x = value;
+EXAMPLE: var x = value;
 
-	* used to store values, which can be strings, arrays, objects, functions, or boolean values
-	* You can also declare a variable without an initial value for later use
-		EXAMPLE: var x;
+* used to store values, which can be strings, arrays, objects, functions, or boolean values
+* You can also declare a variable without an initial value for later use
+EXAMPLE: var x;
 
 ## Array
-	EXAMPLE: var x = [1,2,3,'hello', true];
+EXAMPLE: var x = [1,2,3,'hello', true];
 
-	* used to store lists of values
+* used to store lists of values
 
 ## Objects
-	EXAMPLE: var x = { cat: 'feline', dog: 'canine' }
+EXAMPLE: var x = { cat: 'feline', dog: 'canine' }
 
-	* used to organize data into key-value pairs
-	* the keys in an object can be assigned to any data type, including another object
-	* Values inside of an object are accessed through their keys. You can do this in two ways:
-		* x["cat"] /** returns feline */
-		* x.cat /** returns feline */
+* used to organize data into key-value pairs
+* the keys in an object can be assigned to any data type, including another object
+* Values inside of an object are accessed through their keys. You can do this in two ways:
+* x["cat"] /** returns feline */
+* x.cat /** returns feline */
 
 ## Functions
-	EXAMPLE: var functionName = function (arguments) {
-							/** code to execute */
-						};
-	* Variables declared inside of a function is only accessible within that funciton, while variables declared outside of functions in the global scope are accessible within any function
+EXAMPLE: var functionName = function (arguments) {
+					/** code to execute */
+				};
+* Variables declared inside of a function is only accessible within that funciton, while variables declared outside of functions in the global scope are accessible within any function
 
 ## Logging
-	EXAMPLE: console.log("Hello World");
+EXAMPLE: console.log("Hello World");
 
 ## Alert
-	EXAMPLE: alert("Foo Bar");
+EXAMPLE: alert("Foo Bar");
 
 ## Prompt
-	EXAMPLE:  var userAge = prompt('What is your age?')
+EXAMPLE:  var userAge = prompt('What is your age?')
 
-	* Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
+* Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
 
 ## Converting values
-	### String -> Number
-		* Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
-		EXAMPLE: parseInt('42') /** returns 42 */
-	### Number -> String
-		* Numbers can be converted into strings using .toString()
-		EXAMPLE: 42.toString(); /** returns '42' */
+### String -> Number
+* Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
+EXAMPLE: parseInt('42') /** returns 42 */
+### Number -> String
+* Numbers can be converted into strings using .toString()
+EXAMPLE: 42.toString(); /** returns '42' */
 
 ## jQuery
-	* calls to jQuery functions can begin with either $ or jQuery
-	* can be used for animations, css changes, XHR requests to APIs, and so on.
-	* works "cross-browser", though newer versions of jQuery will be dropping support for Internet Explorer 6 & 7
-	### Allows:
-		* DOM traversal
-		* CSS manipulation
-		* Event handling
-		* Animation
-		* and more!
+* calls to jQuery functions can begin with either $ or jQuery
+* can be used for animations, css changes, XHR requests to APIs, and so on.
+* works "cross-browser", though newer versions of jQuery will be dropping support for Internet Explorer 6 & 7
+### Allows:
+* DOM traversal
+* CSS manipulation
+* Event handling
+* Animation
+* and more!
 
-	### Selecting a DOM element:
-		* By selector:
-			$('p') -> will select all <p> elements on a page
-		* By class:
-			$('.foo') -> will select all elements with class set to 'foo'
-		* By id:
-			$('#foo') -> will select all elements with id set to foo
+### Selecting a DOM element:
+* By selector:
+	$('p') -> will select all <p> elements on a page
+* By class:
+	$('.foo') -> will select all elements with class set to 'foo'
+* By id:
+	$('#foo') -> will select all elements with id set to foo
 
-	### Change text
-		$('p').text('new text to display in all <p> elements')
-	### Update html
-		$('body').html('<div>this line replaces the body content with this div<div>')
-	### Change CSS
-	 $('h1').css({
-	 		color: 'red'
-	 	});
-	 	* this will set the color of all h1s to red
-	### Attach events to elements
-		$('h3').click(function(event) {
-			$(this).hide();
-		})
-		* When any h3 on the page is clicked, the function within the parentheses
-		will be executed, hiding all of the h3s on the page
-		* You can attach an event to one element and manipulate anything on the page within the callback function
-		* If an element has a default event that gets executed on a specific event, such as how <a> tags will open a webpage when they are clicked, you can include event.preventDefault() within the callback function to disable that default behaviour.
+### Change text
+$('p').text('new text to display in all <p> elements')
+### Update html
+$('body').html('<div>this line replaces the body content with this div<div>')
+### Change CSS
+$('h1').css({
+		color: 'red'
+	});
+	* this will set the color of all h1s to red
+
+### Attach events to elements
+
+```javascript
+$('h3').click(function(event) {
+	$(this).hide();
+})
+```
+
+* When any h3 on the page is clicked, the function within the parentheses
+will be executed, hiding all of the h3s on the page
+* You can attach an event to one element and manipulate anything on the page within the callback function
+* If an element has a default event that gets executed on a specific event, such as how <a> tags will open a webpage when they are clicked, you can include event.preventDefault() within the callback function to disable that default behaviour.
 
 
 ## Tools & Tips
-	* CDN: stands for Content Delivery Network, and is used to host and serve documents, most commonly JavaScript and CSS libraries
+* CDN: stands for Content Delivery Network, and is used to host and serve documents, most commonly JavaScript and CSS libraries
 
 ## Best Practices
 
