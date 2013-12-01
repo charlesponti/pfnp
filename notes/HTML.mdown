@@ -48,7 +48,7 @@
 
 ### Link
 ```html
-<a href="url"> 	## ink Text </a>
+<a href="url"> 	Link Text </a>
 ```
 
 ### Div, Section, & Span
