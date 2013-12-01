@@ -93,6 +93,10 @@
 		### Clear
 			* specifies which sides of an element where other floating elements are not allowed
 
+	## Other:
+		* cursor
+			You have change this property if, for example, you wanted the cursor to be pointer instead of the default
+
 	## Tools:
 		### colorpicker.com
 			* Allows you to pick any color, providing both the HEX and RGB codes

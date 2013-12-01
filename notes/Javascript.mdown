@@ -34,6 +34,15 @@
 		 		color: 'red'
 		 	});
 		 	* this will set the color of all h1s to red
+		### Attach events to elements
+			$('h3').click(function(event) {
+				$(this).hide();
+			})
+			* When any h3 on the page is clicked, the function within the parentheses
+			will be executed, hiding all of the h3s on the page
+			* You can attach an event to one element and manipulate anything on the page within the callback function
+			* If an element has a default event that gets executed on a specific event, such as how <a> tags will open a webpage when they are clicked, you can include event.preventDefault() within the callback function to disable that default behaviour.
+
 
 	## Tools & Tips
 		* CDN: stands for Content Delivery Network, and is used to host and serve documents, most commonly JavaScript and CSS libraries
