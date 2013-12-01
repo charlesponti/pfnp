@@ -9,7 +9,32 @@
 	## jQuery
 		* calls to jQuery functions can begin with either $ or jQuery
 		* can be used for animations, css changes, XHR requests to APIs, and so on.
-		*
+		* works "cross-browser", though newer versions of jQuery will be dropping support for Internet Explorer 6 & 7
+		### Allows:
+			* DOM traversal
+			* CSS manipulation
+			* Event handling
+			* Animation
+			* and more!
+
+		### Selecting a DOM element:
+			* By selector:
+				$('p') -> will select all <p> elements on a page
+			* By class:
+				$('.foo') -> will select all elements with class set to 'foo'
+			* By id:
+				$('#foo') -> will select all elements with id set to foo
+
+		### Change text
+			$('p').text('new text to display in all <p> elements')
+		### Update html
+			$('body').html('<div>this line replaces the body content with this div<div>')
+		### Change CSS
+		 $('h1').css({
+		 		color: 'red'
+		 	});
+		 	* this will set the color of all h1s to red
+
 	## Tools & Tips
 		* CDN: stands for Content Delivery Network, and is used to host and serve documents, most commonly JavaScript and CSS libraries
 
