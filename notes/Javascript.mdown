@@ -128,11 +128,14 @@ EXAMPLE: 'hello'
 	* CDN: stands for Content Delivery Network, and is used to host and serve documents, most commonly JavaScript and CSS libraries
 
 ## Best Practices
-	* It is best to never include JavaScript directly into your HTML page within <script></script> tags. You should instead have a seperate .js file with your JavaScript code and include them into you web page like this:
 
-		```html
-		<script src="path/to/js/file"></script>
-		```
+* It is best to never include JavaScript directly into your HTML page within <script></script> tags. You should instead have a seperate .js file with your JavaScript code and include them into you web page like this:
 
-		* NOTE: It is recommended to include your JavaScript files at the bottom of the <body> section of your HTML document, as it allows the user to view the page while the JS files are being loaded. It also may be necessary if parts of your JS needs an element on the page to be present in order to attach an event listener to it.
-	* If you're working for company that does not want to use a CDN or you want the ability to develop offline, you can download and serve a JavaScript library from your web application, though it is best practice to use a CDN as the user will probably already have a cached copy of the
+
+```html
+<script src="path/to/js/file"></script>
+```
+
+* NOTE: It is recommended to include your JavaScript files at the bottom of the <body> section of your HTML document, as it allows the user to view the page while the JS files are being loaded. It also may be necessary if parts of your JS needs an element on the page to be present in order to attach an event listener to it.
+
+* If you're working for company that does not want to use a CDN or you want the ability to develop offline, you can download and serve a JavaScript library from your web application, though it is best practice to use a CDN as the user will probably already have a cached copy of the
