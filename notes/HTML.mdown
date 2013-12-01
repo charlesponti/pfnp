@@ -1,4 +1,3 @@
-
 # HTML:
 	## Minimum needed HTML template
 		<!doctype html> <!-- indicates that this document is using HTML5 -->
@@ -10,6 +9,10 @@
 				<!-- Page content goes here -->
 			</body>
 		</html>
+
+	## The DOM
+		* Document Object Model
+		* The browser constructs this "tree" of the HTML elements on the page upon load
 
 	## Elements
 		<tagname> content </tagname>
@@ -39,12 +42,13 @@
 		### Link
 			<a href="url"> 	## ink Text </a>
 
-		### Div & Section
+		### Div, Section, & Span
 			<div> <!-- content --> </div>
 			<section> <!-- content --> </section>
+			<span> <!-- content --> </section>
 
-			Divs and sections are used to contain other elements. They are used for this
-			because they do not have any default styles.
+			* Divs and sections are used to contain other elements. They are used for this because they do not have any default styles.
+			* Spans have the same properties as divs, except they are inline elements, while divs and sections are block elements
 
 		### Including CSS and JS files
 			* To include a CSS file:
