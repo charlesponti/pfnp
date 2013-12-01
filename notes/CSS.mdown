@@ -67,7 +67,6 @@ property: value
 
 ## Color
 ### RGB
-EXAMPLE:
 ```css
 .classname {
 	color: rgb(0,0,0)
@@ -77,7 +76,6 @@ EXAMPLE:
 *	This is three number representation of colors. The first number is for red, the second is for green, and the third is for blue. Each number can go from 0 to 255. The larger the number, the more that color will be represented.
 
 ### RGBA
-EXAMPLE:
 ```css
 .classname {
 	color: rgba(0,0,0,0.8)
