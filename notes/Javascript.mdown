@@ -15,20 +15,29 @@
 
 ### String
 
-EXAMPLE: 'hello'
+```javascript
+'hello'
+```
 
 * can be declared using either single or double quotes
 * If you are writing a string that has quotes within it, you can use escaping by using a backslash( \ ).
-EXAMPLE: 'She\'ll be here soon'
+```javascript
+'She\'ll be here soon'
+```
 
 ### Number
-EXAMPLE: 1
-
+```javascript
+1
+```
 #### Int
-EXAMPLE: 42
+```javascript
+42
+```
 
 #### Float
-EXAMPLE: 42.99
+```javascript
+42.99
+```
 
 * It's important to note that all numbers, even if they do not have a decimal point, are considered floats which can make working with prices, for example, a bit tricky
 
@@ -41,19 +50,27 @@ EXAMPLE: 42.99
 * null can be assigned to a variable
 
 ## Variables
-EXAMPLE: var x = value;
+```javascript
+var x = value;
+```
 
 * used to store values, which can be strings, arrays, objects, functions, or boolean values
 * You can also declare a variable without an initial value for later use
-EXAMPLE: var x;
+```javascript
+var x;
+```
 
 ## Array
-EXAMPLE: var x = [1,2,3,'hello', true];
+```javascript
+var x = [1,2,3,'hello', true];
+```
 
 * used to store lists of values
 
 ## Objects
-EXAMPLE: var x = { cat: 'feline', dog: 'canine' }
+```javascript
+var x = { cat: 'feline', dog: 'canine' }
+```
 
 * used to organize data into key-value pairs
 * the keys in an object can be assigned to any data type, including another object
@@ -62,29 +79,42 @@ EXAMPLE: var x = { cat: 'feline', dog: 'canine' }
 * x.cat /** returns feline */
 
 ## Functions
-EXAMPLE: var functionName = function (arguments) {
-					/** code to execute */
-				};
+```javascript
+var functionName = function (arguments) {
+	/** code to execute */
+};
+```
 * Variables declared inside of a function is only accessible within that funciton, while variables declared outside of functions in the global scope are accessible within any function
 
 ## Logging
-EXAMPLE: console.log("Hello World");
+```javascript
+console.log("Hello World");
+```
 
 ## Alert
-EXAMPLE: alert("Foo Bar");
+```javascript
+alert("Foo Bar");
+```
 
 ## Prompt
-EXAMPLE:  var userAge = prompt('What is your age?')
+```javascript
+var userAge = prompt('What is your age?')
+```
 
 * Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
 
 ## Converting values
 ### String -> Number
 * Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
-EXAMPLE: parseInt('42') /** returns 42 */
+```javascript
+parseInt('42') /** returns 42 */
+```
+
 ### Number -> String
 * Numbers can be converted into strings using .toString()
-EXAMPLE: 42.toString(); /** returns '42' */
+```javascript
+42.toString(); /** returns '42' */
+```
 
 ## jQuery
 * calls to jQuery functions can begin with either $ or jQuery
@@ -99,21 +129,37 @@ EXAMPLE: 42.toString(); /** returns '42' */
 
 ### Selecting a DOM element:
 * By selector:
-	$('p') -> will select all <p> elements on a page
+```javascript
+$('p') /** will select all <p> elements on a page */
+```
 * By class:
-	$('.foo') -> will select all elements with class set to 'foo'
+```javascript
+$('.foo') /** will select all elements with class set to 'foo' */
+```
+
 * By id:
-	$('#foo') -> will select all elements with id set to foo
+```javascript
+$('#foo') /** will select all elements with id set to foo */
+```
+
 
 ### Change text
+```javascript
 $('p').text('new text to display in all <p> elements')
+```
+
 ### Update html
+```javascript
 $('body').html('<div>this line replaces the body content with this div<div>')
+```
+
 ### Change CSS
+```javascript
 $('h1').css({
-		color: 'red'
-	});
-	* this will set the color of all h1s to red
+	color: 'red'
+});
+```
+* this will set the color of all h1s to red
 
 ### Attach events to elements
 
