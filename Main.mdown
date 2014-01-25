@@ -1,7 +1,5 @@
 # PROGRAMMING FOR NON*PROGRAMMERS
 
-* Different browsers render pages differently due to them having different rendering engines such as Webkit on Safari and Chrome
-
 ## What Do Programs Actually Do?
 * Keep track of values (Variables)
 * Making decisions (if*>else)
