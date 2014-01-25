@@ -90,6 +90,9 @@ body {
 
 ## Color
 
+### Name
+* There are 140 named colors in CSS, such as `red`,`blue`,`cyan`, etc.
+
 ### RGB
 ```css
 .classname {
@@ -162,5 +165,8 @@ body {
 ### colorpicker.com
 * Allows you to pick any color, providing both the HEX and RGB codes
 
+## Reference Sites
+
 ## Best Practices
 * Put element rules in the same order that the elements appear in the HTML
+
