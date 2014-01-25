@@ -1,5 +1,12 @@
 # CSS:
 
+## Selectors
+
+* `*` All elements
+* `#X` ids
+* `.X` classes
+* `X Y` 
+
 ## Defining a rule
 ```css
 body {
