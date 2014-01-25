@@ -97,6 +97,17 @@ Here's an overview of some of them.
 
 ### 3. Testing
 
+Web applications undergo the same unit, integration and system testing as traditional desktop applications. But because web application clients vary so greatly, teams might perform some additional testing, such as: 
+
+* Security
+* Performance, Load, and Stress
+* HTML/CSS validation
+* Accessibility
+* Usability
+* Cross-browser
+
+Many types of tests are automatable. At the component level, one of the xUnit packages can be a helpful tool. Or an organization can create its own unit testing framework. At the GUI level, Watir or iMacros are useful.
+
 # Best Practices
 * **D.R.Y** - Don't Repeat Yourself
 * **Commenting**

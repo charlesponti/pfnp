@@ -27,7 +27,14 @@ This is a open-source css file that normalizes css properties across browsers an
 ## Version Control
 Handles the management of changes to documents. It allows developers to manage multiple versions of the same codebase, which comes in handy when bugs get accidently introduced and the application needs to be reverted to a previous working state.
 
-* Examples of Version Control Systems:
+* Keep track of the version of code
+* Collaborate with others
+* Keep track of who contributed
+* Open-socurce (release it to the world for free!)
+* **Popular Tools**
+	* GitHub
+	* BitBucket 
+* **Version Control Systems:**
 	* Git
 	* Bazaar
 	* Subversion
@@ -35,5 +42,4 @@ Handles the management of changes to documents. It allows developers to manage m
 
 ## Best Practices
 * Don't use spaces in file names; use hyphens if necessary
-* Minification: The process of removing all unnecessary characters from source
-code without changing its functionality. These unnecessary characters usually include white space characters, new line characters, comments, and sometimes block delimiters, which are used to add readability to the code but are not required for it to execute. Minified source code is especially useful for interpreted languages deployed and transmitted on the Internet (such as JavaScript), because it reduces the amount of data that needs to be transferred.
+* **Minification** The process of removing all unnecessary characters from source code without changing its functionality. These unnecessary characters usually include white space characters, new line characters, comments, and sometimes block delimiters, which are used to add readability to the code but are not required for it to execute. Minified source code is especially useful for interpreted languages deployed and transmitted on the Internet (such as JavaScript), because it reduces the amount of data that needs to be transferred.
