@@ -70,6 +70,7 @@ Heading elements implement six levels of document headings, `<h1>` is the most i
 	```
 	<a href="url"> 	Link Text </a>
 	```
+	* If you would like the link to open up a new tab, you can add ``target='_blank'`` inside of the `<a>` tag as so: ``<a src='google.com' target='_blank'>Link Text</a>``
 * ``<div>``, ``<section>``, ``<article>``, ``<span>``
 	```<div> <!-- content --> </div>```
 	```<section> <!-- content --> </section>```
