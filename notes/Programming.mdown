@@ -9,7 +9,7 @@
 
 ### Front-End Versus Back-End
 #### Front-End:
-* structured content, styleing and behaviour
+* structured content, styling and behaviour
 * Languages:
 	* Template: HTML
 	* Style: CSS
@@ -23,6 +23,15 @@
 	* YUI
 	* etc.
 
-* Back-End languages: Ruby, Python, PHP, etc.
+
+#### Back-End:
 * preparation of the structured content that is delivered to the client, storing user input
-* Frameworks: Ruby on Rails, Django, etc.
+* Languages:
+	* Ruby
+	* Python
+	* PHP
+	* etc.
+* Frameworks: 
+	* Ruby on Rails
+	* Django
+	* etc.
