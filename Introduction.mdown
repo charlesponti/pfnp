@@ -4,9 +4,11 @@
 * A set of instructions, similar to a recipe, given to a machine, whether it be a computer of a mobile device, to execute in order to accomplish a task or provide a service.
 
 ## What Do Programs Actually Do?
-* Keep track of values (Variables)
-* Making decisions (if*>else)
-* Repeating things (For and While loops)
+* Keeping track of values (Variables)
+* Making decisions (if -> else)
+* Repeating things (loops)
+* Displaying things (templating and style languages)
+* Logging things (Log Files)
 * Storing things (Databases such as PostgreSQL and MongoDB)
 
 ## What Can You Build?
@@ -16,16 +18,24 @@
 * etc.
 
 ## Project Processes:
-* Waterfall: Do one stage of the development process at a time, never to go back and repeat a previous step
-* Agile: Allows developers to jump from one stage to another and back again depending on what is needed to complete the job.
+### Waterfall
+![Waterfall Development Model](http://www.learnaccessvba.com/images/application_development/Waterfall_model.png)
+
+Does one stage of the development process at a time, never to go back and repeat a previous step
+
+### Agile
+![Agile Development Model](http://www.tplex.com/images/tplex/AgileDevelopment.png)
+	
+Allows developers to jump from one stage to another and back again depending on what is needed to complete the job.
 
 ## Stages of Web Development
 ### Design
 * **User Experience:** Meshing together your business needs with the user's needs, following the best practices
-	* **User Researcher:** Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
-	* **Information Architect(IA):** Defines the structure of the system, how content is described, organized, and discovered
-	* **Interaction Designer(IxD)**
-* Wireframing (OmniGraffle & Wireframe.cc)
+	* **Careers in Web Design** 
+		* **User Researcher:** Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
+		* **Information Architect(IA):** Defines the structure of the system, how content is described, organized, and discovered
+		* **Interaction Designer(IxD)**
+* **Wireframing** (OmniGraffle & Wireframe.cc)
 * Photoshop
 * Why, Who, What, Where, When, How
 
@@ -33,10 +43,9 @@
 ### Testing
 
 # Best Practices
-* D.R.Y: Don't Repeat Yourself
-* Commenting
-* Testing
-* Seperation of Concerns
-* Test
+* **D.R.Y** - Don't Repeat Yourself
+* **Commenting**
+* **Testing**
+* **Seperation of Concerns** - Keep your templating, styling, and behaviours seperated
 
 
