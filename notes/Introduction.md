@@ -51,7 +51,8 @@ User experience (UX) involves a person's behaviors, attitudes, and emotions abou
 
 Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding.
 
-## Languages
+
+## Programming Languages
 ### What to look for in a language
 * Community support
 * Stack Overflow
@@ -67,17 +68,17 @@ Web development is a broad term for the work involved in developing a web site f
 Front-end or client-side development is a relatively obscure Internet discipline. Historically, this role has been known under several aliases, htmler, web designer, coder, frontender and so on, but its core functions remain the same while expanding with the progress of the Internet. It is a hinge role that requires both aesthetic sensitivity and programmatic rigor.
 
 To many people, client-side development might be perceived as 'making things pretty' and, while it is a valid comment since we do make things look good, as good-looking things sell better, there are many other technologies that fall within this field that might be usually overlooked. 
-Here's an overview of some of them.
 
-* Languages:
-	* Template: HTML
-	* Style: CSS
-	* Behaviour: JavaScript
-* Frameworks
+The front-end of a web page is made of three things:  
+1. Structured content (HTML)  
+2. Presentation (CSS)  
+3. Interaction/behaviour (JavaScript)
+
+* **Frameworks**
 	* Angular
 	* Backbone
 	* etc.
-* Libraries
+* **Libraries**
 	* jQuery
 	* YUI
 	* etc.
@@ -85,12 +86,12 @@ Here's an overview of some of them.
 
 ### Back-End:
 * preparation of the structured content that is delivered to the client, storing user input
-* Languages:
+* **Languages**
 	* Ruby
 	* Python
 	* PHP
 	* etc.
-* Frameworks: 
+* **Frameworks**
 	* Ruby on Rails
 	* Django
 	* etc.
