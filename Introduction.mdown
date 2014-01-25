@@ -1,10 +1,19 @@
 # PROGRAMMING FOR NON*PROGRAMMERS
 
+## What is Programming?
+* A set of instructions, similar to a recipe, given to a machine, whether it be a computer of a mobile device, to execute in order to accomplish a task or provide a service.
+
 ## What Do Programs Actually Do?
 * Keep track of values (Variables)
 * Making decisions (if*>else)
 * Repeating things (For and While loops)
 * Storing things (Databases such as PostgreSQL and MongoDB)
+
+## What Can You Build?
+* Web Sites
+* Web Applications
+* Native Apps (Mobile and Desktop)
+* etc.
 
 ## Project Processes:
 * Waterfall: Do one stage of the development process at a time, never to go back and repeat a previous step
@@ -12,10 +21,10 @@
 
 ## Stages of Web Development
 ### Design
-* User Experience: Meshing together your business needs with the user's needs, following the best practices
-	* User Researcher: Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
-	* Information Architect(IA): Defines the structure of the system, how content is described, organized, and discovered
-	* Interaction Designer(IxD)
+* **User Experience:** Meshing together your business needs with the user's needs, following the best practices
+	* **User Researcher:** Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
+	* **Information Architect(IA):** Defines the structure of the system, how content is described, organized, and discovered
+	* **Interaction Designer(IxD)**
 * Wireframing (OmniGraffle & Wireframe.cc)
 * Photoshop
 * Why, Who, What, Where, When, How
