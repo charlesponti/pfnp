@@ -76,10 +76,25 @@ body {
 ## Box Model
 
 ### Padding
-* Declares how much whitespace there will be between the content inside of a element and the elements border
+
+Declares how much whitespace there will be between the content inside of a element and the elements border
+
+```
+padding: 20px; /* 20px padding to all four sides */
+```
+
+```
+padding: 5px 10px; /* 5px padding to top and bottom & 10px padding to left and right */
+```
+```
+padding: 5px 10px 6px; /* 5px padding to top, 10px padding to left and right, 6px padding to bottom */
+```
+```
+padding: 5px 10px 6px 12px; /* 5px padding to top, 10px padding to right, 6px padding to bottom, 12px padding to left */
+```
 
 ### Margin
-* Declares how far away from other elements the element will be
+Declares how far away from other elements the element will be.
 * To horizontally center an element within it's parent element, use:
 ```css
 .element {
@@ -116,21 +131,21 @@ body {
 
 ## Background
 * For a color:
-```css
+```
 .classname {
 	background: /* name of color */;
 } or { background-color: colorname }
 ```
 
 * For an image:
-```css
+```
 .classnmae {
 	background: url(path/to/image)
 }
 ```
 
 * To stretch background to the size of the user's browser window, use:
-```css
+```
 .classname {
 	background-size: cover;
 	background-attachment: fixed;
@@ -138,32 +153,19 @@ body {
 ```
 
 ## Positioning and Type
-### Display
-* specifies the type of box used for the element
+* **display** specifies the type of box used for the element
 
-### Position
-
-#### Static
-* this is the default for elements
-
-#### Relative
-* this positions an element relative to its parent
-
-#### Absolute
-* this positions an element in one area of the page, or the first parent element whose position is set to relative, and sits on top of all other items. It can sit below other items by changing it's z-index.
-
-### Float
-* pushs an element left or right and allows other elements to wrap around them
-
-### Clear
-* specifies which sides of an element where other floating elements are not allowed
-
-## Other:
-* cursor: You can change this property if, for example, you wanted the cursor to be pointer instead of the default
+* **position**
+	* **static** default for elements
+	* **relative** positions an element relative to its parent
+	* **absolute** positions an element in one area of the page, or the first parent element whose position is set to relative, and sits on top of all other items. It can sit below other items by changing it's z-index.
+	* **float** pushs an element left or right and allows other elements to wrap around them
+	* **clear** specifies which sides of an element where other floating elements are not allowed
+* **cursor** You can change this property if, for example, you wanted the cursor to be pointer instead of the default
 
 ## Tools:
-### colorpicker.com
-* Allows you to pick any color, providing both the HEX and RGB codes
+* **colorpicker.com**
+	* Allows you to pick any color, providing both the HEX and RGB codes
 
 ## Reference Sites
 
