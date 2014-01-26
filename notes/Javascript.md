@@ -243,7 +243,9 @@ $(function() {
 
 
 ## Tools & Tips
-* **CDN** stands for Content Delivery Network, and is used to host and serve documents, most commonly JavaScript and CSS libraries
+* [Mozilla Developer Network - JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Mozilla Developer Network - Learn JavaScript](https://developer.mozilla.org/en/learn/javascript)
+* [Codecademy - JavaScript](http://www.codecademy.com/tracks/javascript)
 
 ## Best Practices
 * If you're working for company that does not want to use a CDN or you want the ability to develop offline, you can download and serve a JavaScript library from your web application, though it is best practice to use a CDN as the user will probably already have a cached copy of the files that are being served with your web application.
