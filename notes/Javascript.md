@@ -28,24 +28,26 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 
 * **String**
 
-	```javascript
+	```
 	'hello'
 	```
 
 	* can be declared using either single or double quotes
 	* If you are writing a string that has quotes within it, you can use escaping by using a backslash( \ ).
 
-	```javascript
+	```
 	'She\'ll be here soon'
 	```
 
 * **Number**
-```javascript
-1
-```
+
+	```
+	1
+	```
 
 * **Float**
-	```javascript
+
+	```
 	42.99
 	```
 
@@ -53,9 +55,10 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 
 
 * **Boolean**
-```javascript
-	true && false
-```
+
+	```
+		true && false
+	```
 
 * **Null vs Undefined**
 	* `undefined` means a variable has been declared but has not yet been assigned a value. On the other hand, `null` is an assignment value. It can be assigned to a variable as a representation of no value.
@@ -63,32 +66,35 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 	* Unassigned variables are initialized by JavaScript with a default value of `undefined`. JavaScript never sets a value to `null`. That must be done programmatically.
 
 * **Array**
-	```javascript
+
+	```
 	var x = [1,2,3,'hello', true];
 	```
 	* used to store lists of values
 
 * **Object**
-	```javascript
+
+	```
 	var x = { cat: 'feline', dog: 'canine' }
 	```
 
 * **Functions**
-```javascript
-var functionName = function(arguments) {
-	/** code to execute */
-};
-```
+
+	```
+	var functionName = function(arguments) {
+		/** code to execute */
+	};
+	```
 
 	* Variables declared inside of a function is only accessible within that funciton, while variables declared outside of functions in the global scope are accessible within any function
 
 ## Variables
-```javascript
+```
 var x = 'Meowcakes!';
 ```
 * used to store values, which can be strings, arrays, objects, functions, or boolean values
 * You can also declare a variable without an initial value for later use
-```javascript
+```
 var x;
 ```
 
@@ -100,39 +106,41 @@ var x;
 
 
 ## Logging
-```javascript
+```
 console.log("Hello World");
 ```
 
 ## Alert
-```javascript
+```
 alert("Foo Bar");
 ```
 
 ## Prompt
-```javascript
+```
 var userAge = prompt('What is your age?')
 ```
 
 * Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
 
 ## Converting values
+
 * **String -> Number**
-```javascript
+```
 parseInt('42') /** returns 42 */
 ```
-* Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
+
+	* Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
 
 
 * **Number -> String**
-```javascript
+```
 42.toString(); /** returns '42' */
 ```
 * Numbers can be converted into strings using .toString()
 
 ## jQuery
 
-```javascript
+```
 $(function() {
 	/* When the page has finished loading, execute the code in this function */
 })
@@ -152,33 +160,33 @@ $(function() {
 
 * **Selecting a DOM element**
 	* By selector:
-		```javascript
+		```
 		$('p') /** will select all <p> elements on a page */
 		```
 
 	* By class:
-		```javascript
+		```
 		$('.foo') /** will select all elements with class set to 'foo' */
 		```
 
 	* By id:
-		```javascript
+		```
 		$('#foo') /** will select all elements with id set to foo */
 		```
 
 
 * **Change text**
-	```javascript
+	```
 	$('p').text('new text to display in all <p> elements')
 	```
 
 * **Update html**
-	```javascript
+	```
 	$('body').html('<div>this line replaces the body content with this div<div>')
 	```
 
 * **Change CSS**
-	```javascript
+	```
 	$('h1').css({
 		color: 'red'
 	});
@@ -186,7 +194,7 @@ $(function() {
 	```
 
 * **Attach events to elements**
-	```javascript
+	```
 	$('h3').click(function(event) {
 		$(this).hide();
 	});
