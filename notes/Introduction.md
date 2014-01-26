@@ -75,11 +75,10 @@ Many types of tests are automatable. At the component level, one of the xUnit pa
 * Development time
 * Is what you want to accomplish going to happen on the front-end or the back-end?
 
-## Front-End & Back-End
 
 ![Frond-End & Back-End Development](http://signedon.com/wp-content/uploads/2012/07/signedon-frontend-backend1.png)
 
-### Front-End:
+## Front-End Development
 Front-end or client-side development is a relatively obscure Internet discipline. Historically, this role has been known under several aliases, htmler, web designer, coder, frontender and so on, but its core functions remain the same while expanding with the progress of the Internet. It is a hinge role that requires both aesthetic sensitivity and programmatic rigor.
 
 To many people, client-side development might be perceived as 'making things pretty' and, while it is a valid comment since we do make things look good, as good-looking things sell better, there are many other technologies that fall within this field that might be usually overlooked.
@@ -93,43 +92,60 @@ The front-end of a web page is made of three things:
 	* Angular
 	* Backbone
 	* etc.
+
 * **Libraries**
 	* jQuery
 	* YUI
 	* etc.
 
 
-### Back-End:
+## Back-End Development
 
-#### Databases
+The backend is everything that happens before it gets to your browser. If you’re booking a flight, that’s where prices are checked, itineraries are booked, and credit cards are charged. A backend can be very simple or very complicated.
 
-An organized collection of information.
+A typical setup for a backend is a web server, an application and a database. The web server delivers a note to the application that you’d like to see all of the flights to Chicago. The application looks up the flights in the database, puts together a web page that lists them, and sends that web page back to your computer through the web server. That’s all the backend. Once your computer gets a hold of it, it’s the frontend.
 
-##### Types of Databases
-* **Relational**
-	* These databases that have a collection of tables of data items, all of which is formally described and organized according to the relational model. Data in a single table represents a relation, from which the name of the database type comes. In typical solutions, tables may have additionally defined relationships with each other. Two of the most popular relational databases are MySQL and PostgreSQL.
+For technologies used in the backend, anything goes. If a database stores your name or flight info, it might be MySQL, MongoDB, PostgreSQL, or many others. Web pages could be put together with Python, Ruby on Rails, or PHP. The web server that sends those pages over to your computer might be Apache, Nginx, or IIS. The list goes on and on!
 
-* **NoSQL**
-	* A NoSQL database provides a mechanism for storage and retrieval of data that employs less constrained consistency models than traditional relational databases. Motivations for this approach include simplicity of design, horizontal scaling and finer control over availability. NoSQL databases are often highly optimized key–value stores intended for simple retrieval and appending operations, with the goal being significant performance benefits in terms of latency and throughput. NoSQL databases are finding significant and growing industry use in big data and real-time web applications. NoSQL systems are also referred to as "Not only SQL" to emphasize that they may in fact allow SQL-like query languages to be used. The most popular relational databases are MongoDB.
+* **Languages**
+	* Ruby
+	* Python
+	* PHP
+	* etc.
+
+* **Frameworks**
+	* Ruby on Rails
+	* Django
+	* etc.
+
+* **Databases**
+	* An organized collection of information.
+	* **Types**
+
+		* **Relational** These databases that have a collection of tables of data items, all of which is formally described and organized according to the relational model. Data in a single table represents a relation, from which the name of the database type comes. In typical solutions, tables may have additionally defined relationships with each other. Two of the most popular relational databases are MySQL and PostgreSQL.
+
+		* **NoSQL** A NoSQL database provides a mechanism for storage and retrieval of data that employs less constrained consistency models than traditional relational databases. Motivations for this approach include simplicity of design, horizontal scaling and finer control over availability. NoSQL databases are often highly optimized key–value stores intended for simple retrieval and appending operations, with the goal being significant performance benefits in terms of latency and throughput. NoSQL databases are finding significant and growing industry use in big data and real-time web applications. NoSQL systems are also referred to as "Not only SQL" to emphasize that they may in fact allow SQL-like query languages to be used. The most popular relational databases are MongoDB.
 
 ## APIs (Application Programming Interfaces)
-* In addition to accessing databases or computer hardware, such as hard disk drives or video cards, an API can be used to ease the work of programming graphical user interface components. In practice, many times an API comes in the form of a library that includes specifications for routines, data structures, object classes, and variables. In some other cases, notably for SOAP and REST services, an API comes as just a specification of remote calls exposed to the API consumers
+
+In addition to accessing databases or computer hardware, such as hard disk drives or video cards, an API can be used to ease the work of programming graphical user interface components. In practice, many times an API comes in the form of a library that includes specifications for routines, data structures, object classes, and variables. In some other cases, notably for SOAP and REST services, an API comes as just a specification of remote calls exposed to the API consumers
 
 ## Version Control
 Handles the management of changes to documents. It allows developers to manage multiple versions of the same codebase, which comes in handy when bugs get accidently introduced and the application needs to be reverted to a previous working state.
 
-* Keep track of the version of code
-* Collaborate with others
-* Keep track of who contributed
-* Open-socurce (release it to the world for free!)
-* **Popular Tools**
-	* GitHub
-	* BitBucket
-* **Version Control Systems:**
-	* Git
-	* Bazaar
-	* Subversion
-	* Mercurial
+* **What Does Version Control Help Developers Do?**
+	* Keeps track of the version of code
+	* Helps developers collaborate with each other
+	* Keeps track of who contributed
+	* Open-source (release code to the world for free!)
+	* **Popular Tools**
+		* GitHub
+		* BitBucket
+	* **Version Control Systems:**
+		* Git
+		* Bazaar
+		* Subversion
+		* Mercurial
 
 ## Tools
 
