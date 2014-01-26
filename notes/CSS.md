@@ -1,4 +1,4 @@
-# CSS:
+# CSS
 
 ![CSS](http://cscie12.dce.harvard.edu/lecture_notes/2010/20100303/images/wordle-css.png)
 
@@ -20,11 +20,10 @@ body {
 ```
 
 ## Selectors
-
 * `*` All elements
-* `#X` ids
-* `.X` classes
-* `X Y` 
+* `#X` targets all elements with a id of X
+* `.X` targets all elements with a class of X
+* `X Y` targets any Y element inside of any X element
 
 
 ## Fonts
@@ -69,7 +68,7 @@ body {
 	* Percentage of the parent element
 		* **NOTE:** If you are defining the width or height of an element in percentage, its parent element must have it's width or height set.
 
-* **EM**  
+* **EM**
 	```
 	body {
 		font-size: 1em;
@@ -99,10 +98,11 @@ body {
 
 * **margin**
 	```
-		p {
-			margin: 50px;		}
+	p {
+		margin: 50px;
+	}
 	```
-	
+
 	* Declares how far away from other elements the element will be.
 	* To horizontally center an element within it's parent element, use:
 	```css
@@ -117,8 +117,9 @@ body {
 
 * **Name**
 	```
-		p {
-			color: red;		}
+	p {
+		color: red;
+	}
 	```
 	* There are 140 named colors in CSS, such as `red`,`blue`,`cyan`, etc.
 
@@ -143,30 +144,31 @@ body {
 * **HEX**
 	```
 		div.hero {
-			background-color: #FF00FF;		}
+			background-color: #FF00FF;
+		}
 	```
 	* Six-digit, three-byte hexadecimal number used in HTML, CSS, SVG, and other computing applications, to represent colors. The bytes represent the red, green and blue components of the color. One byte represents a number in the range 00 to FF (in hexadecimal notation), or 0 to 255 in decimal notation. This represents the least (0) to the most (255) intensity of each of the color components
 
 ## Background
 * For a color:
 	```
-.classname {
-	background: /* name of color */;
-} or { background-color: colorname }
+	.classname {
+		background-color: red;
+	}
 	```
 
 * For an image:
 	```
-.classnmae {
-	background: url(path/to/image)
+	.classname {
+		background: url(path/to/image);
 	}
 	```
 
 * To stretch background to the size of the user's browser window, use:
 	```
-.classname {
-	background-size: cover;
-	background-attachment: fixed;
+	.classname {
+		background-size: cover;
+		background-attachment: fixed;
 	}
 	```
 
@@ -179,14 +181,14 @@ body {
 	* **absolute** positions an element in one area of the page, or the first parent element whose position is set to relative, and sits on top of all other items. It can sit below other items by changing it's z-index.
 	* **float** pushs an element left or right and allows other elements to wrap around them
 	* **clear** specifies which sides of an element where other floating elements are not allowed
-* **cursor** You can change this property if, for example, you wanted the cursor to be pointer instead of the default
+
+* **cursor** change this property if, for example, you wanted the cursor to be a pointer instead of the default arrow icon
 
 ## Tools:
-* **ColorPicker.com**
-	* Allows you to pick any color, providing both the HEX and RGB codes
- 
+* **ColorPicker.com** Allows you to pick any color, providing both the HEX and RGB codes
+
 ## Reference Sites
-* **CSS-Tricks.com**
+* **CSS-Tricks.com** CSS Tutorials
 
 ## Best Practices
 * Put element rules in the same order that the elements appear in the HTML
