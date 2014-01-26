@@ -16,11 +16,11 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 
 ## Adding JavaScript to a webpage
 
-* It is best to never include JavaScript directly into your HTML page within <script></script> tags. You should instead have a seperate .js file with your JavaScript code and include them into you web page like this:
-
 ```html
 <script src="path/to/js/file"></script>
 ```
+
+* It is best to never include JavaScript directly into your HTML page within <script></script> tags. You should instead have a seperate .js file with your JavaScript code and include them into you web page like this:
 
 * It is recommended to include your JavaScript files at the bottom of the <body> section of your HTML document, as it allows the user to view the page while the JS files are being loaded. It also may be necessary if parts of your JS needs an element on the page to be present in order to attach an event listener to it.
 
@@ -57,7 +57,7 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 * **Boolean**
 
 	```
-		true && false
+	true && false
 	```
 
 * **Null vs Undefined**
@@ -70,6 +70,7 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 	```
 	var x = [1,2,3,'hello', true];
 	```
+
 	* used to store lists of values
 
 * **Object**
@@ -89,11 +90,14 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 	* Variables declared inside of a function is only accessible within that funciton, while variables declared outside of functions in the global scope are accessible within any function
 
 ## Variables
+
 ```
 var x = 'Meowcakes!';
 ```
+
 * used to store values, which can be strings, arrays, objects, functions, or boolean values
 * You can also declare a variable without an initial value for later use
+
 ```
 var x;
 ```
@@ -101,26 +105,16 @@ var x;
 * used to organize data into key-value pairs
 * the keys in an object can be assigned to any data type, including another object
 * Values inside of an object are accessed through their keys. You can do this in two ways:
-* x["cat"] /** returns feline */
-* x.cat /** returns feline */
 
+```
+var x = {
+	cat: 'feline'
+}
 
-## Logging
-```
-console.log("Hello World");
-```
+x["cat"] /** returns feline */
 
-## Alert
+x.cat /** returns feline */
 ```
-alert("Foo Bar");
-```
-
-## Prompt
-```
-var userAge = prompt('What is your age?')
-```
-
-* Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
 
 ## Converting values
 
@@ -128,15 +122,59 @@ var userAge = prompt('What is your age?')
 ```
 parseInt('42') /** returns 42 */
 ```
-
-	* Strings that only have integers in them, such as '42', can be converted to a number using parseInt()
+* Strings that only have integers at the beginning of them, such as '42', can be converted to a number using parseInt()
 
 
 * **Number -> String**
 ```
 42.toString(); /** returns '42' */
 ```
-* Numbers can be converted into strings using .toString()
+
+## Conditionals
+
+* **if/else**
+```
+var x = 5;
+
+if (x === 5) {
+	/* do stuff */
+} else {
+	/* do something if x is not equal to 5 */
+}
+```
+
+* **if/else if/else**
+```
+var username = 'Kathy';
+
+if (username === 'Sandy') {
+	/* do stuff */
+} else if (username === 'Kathy') {
+	/* do something else */
+} else {
+	/* do something of username is not equal to 'Sandy' or 'Kathy' */
+}
+```
+
+## Web API
+
+* **alert**
+```
+alert("Foo Bar");
+```
+
+* **console.log**
+```
+console.log("Hello World");
+/** Print "Hello World" to dev console */
+```
+
+* **prompt**
+```
+var userAge = prompt('What is your age?')
+```
+
+* Will present a alert window with a text field. The value that user inputs into the textfield will be attributed to the variable. In the above example, after the user enters a value and pressing 'Ok', userAge will be equal to whatever the user inputs.
 
 ## jQuery
 
