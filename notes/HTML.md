@@ -90,7 +90,7 @@ Heading elements implement six levels of document headings, `<h1>` is the most i
 	```
 	<script src="path/to/js/file"></script>
 	```
-	* JS files are commonly included at the bottom on the ``<body>`` section of the HTML document so that the page can render and user can begin interacting with the webpage before the JS files need to be downloaded.
+	* JS files are commonly included at the bottom of the ``<body>`` section of the HTML document so that the page can render and user can begin interacting with the webpage before the JS files need to be downloaded.
 
 #### Classes and Ids
 ```html
@@ -98,8 +98,7 @@ Heading elements implement six levels of document headings, `<h1>` is the most i
 <tagname id="idname"> content </tagname>
 ```
 Classes and ids are attributes of an HTML element. They are used to differentiate elements from each other, which comes in very handy when defining styles in CSS and behaviours in JavaScript. It is recommended to use classes for defining styles in CSS and ids for referencing that element in JavaScript.
-
-```
+********
 #### Image Extensions
 Common image extensions are .jpg, .png, .tiff, and .gif. The most popular being:
 

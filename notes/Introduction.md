@@ -25,7 +25,7 @@ Does one stage of the development process at a time, never to go back and repeat
 
 ### Agile
 ![Agile Development Model](http://www.tplex.com/images/tplex/AgileDevelopment.png)
-	
+
 Allows developers to jump from one stage to another and back again depending on what is needed to complete the job.
 
 ## Stages of Web Development
@@ -36,8 +36,8 @@ Allows developers to jump from one stage to another and back again depending on 
 
 ![User Experience](http://www.everyinteraction.com/wp-content/uploads/2012/10/ux-diagram.png)
 
-User experience (UX) involves a person's behaviors, attitudes, and emotions about using a particular product, system or service. User experience includes the practical, experiential, affective, meaningful and valuable aspects of human-computer interaction and product ownership. Additionally, it includes a person’s perceptions of system aspects such as utility, ease of use and efficiency. User experience may be considered subjective in nature to the degree that it is about individual perception and thought with respect to the system. User experience is dynamic as it is constantly modified over time due to changing usage circumstances and changes to individual systems as well as the wider usage context in which they can be found.  
-  
+User experience (UX) involves a person's behaviors, attitudes, and emotions about using a particular product, system or service. User experience includes the practical, experiential, affective, meaningful and valuable aspects of human-computer interaction and product ownership. Additionally, it includes a person’s perceptions of system aspects such as utility, ease of use and efficiency. User experience may be considered subjective in nature to the degree that it is about individual perception and thought with respect to the system. User experience is dynamic as it is constantly modified over time due to changing usage circumstances and changes to individual systems as well as the wider usage context in which they can be found.
+
 #### Careers in Web Design
 * **User Researcher** Indentifies user behaviors, goals, and needs through interviews, studies, and surveys
 
@@ -53,6 +53,7 @@ Web development is a broad term for the work involved in developing a web site f
 
 
 ## Programming Languages
+
 ### What to look for in a language
 * Community support
 * Stack Overflow
@@ -67,11 +68,11 @@ Web development is a broad term for the work involved in developing a web site f
 ### Front-End:
 Front-end or client-side development is a relatively obscure Internet discipline. Historically, this role has been known under several aliases, htmler, web designer, coder, frontender and so on, but its core functions remain the same while expanding with the progress of the Internet. It is a hinge role that requires both aesthetic sensitivity and programmatic rigor.
 
-To many people, client-side development might be perceived as 'making things pretty' and, while it is a valid comment since we do make things look good, as good-looking things sell better, there are many other technologies that fall within this field that might be usually overlooked. 
+To many people, client-side development might be perceived as 'making things pretty' and, while it is a valid comment since we do make things look good, as good-looking things sell better, there are many other technologies that fall within this field that might be usually overlooked.
 
-The front-end of a web page is made of three things:  
-1. Structured content (HTML)  
-2. Presentation (CSS)  
+The front-end of a web page is made of three things:
+1. Structured content (HTML)
+2. Presentation (CSS)
 3. Interaction/behaviour (JavaScript)
 
 * **Frameworks**
@@ -109,7 +110,7 @@ The front-end of a web page is made of three things:
 
 ### 3. Testing
 
-Web applications undergo the same unit, integration and system testing as traditional desktop applications. But because web application clients vary so greatly, teams might perform some additional testing, such as: 
+Web applications undergo the same unit, integration and system testing as traditional desktop applications. But because web application clients vary so greatly, teams might perform some additional testing, such as:
 
 * Security
 * Performance, Load, and Stress

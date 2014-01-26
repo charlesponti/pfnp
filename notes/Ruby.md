@@ -1,13 +1,11 @@
 # Ruby
 
 ## Variables
-EXAMPLE:
 ```ruby
 name = 'Sally'
 ```
 
 ## Loops
-EXAMPLE:
 ```ruby
 10.times do
 	puts "Hello World"
@@ -15,7 +13,6 @@ end
 ```
 
 ## Methods
-EXAMPLE:
 ```ruby
 def add(x,y)
 	x + y
@@ -26,7 +23,6 @@ end
 * Unlike Javascript, you do not need to explicitly write return at the end of a method because Ruby automatically returns the value of the last executed expression within the method
 
 ## Class
-EXAMPLE:
 ```ruby
 class Person
 	def initialize(age,name)
