@@ -185,7 +185,10 @@ body {
 * **cursor** change this property if, for example, you wanted the cursor to be a pointer instead of the default arrow icon
 
 ## Tools:
+
 * **ColorPicker.com** Allows you to pick any color, providing both the HEX and RGB codes
+
+* **Normalize.css** A open-source css file that normalizes css properties across browsers and fixes some styling quirks.
 
 ## Reference Sites
 * **CSS-Tricks.com** CSS Tutorials

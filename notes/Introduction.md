@@ -1,4 +1,4 @@
-# PROGRAMMING FOR NON*PROGRAMMERS
+# PROGRAMMING FOR NON-PROGRAMMERS
 
 ## What is Programming?
 * A set of instructions, similar to a recipe, given to a machine, whether it be a computer of a mobile device, to execute in order to accomplish a task or provide a service.
@@ -51,6 +51,20 @@ User experience (UX) involves a person's behaviors, attitudes, and emotions abou
 
 Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding.
 
+### 3. Testing
+
+> "As soon as we started programming, we found to our surprise that it wasn't as easy to get programs right as we had thought. Debugging had to be discovered. It was on one of my journeys between the EDSAC room and the punching equipment that 'hesitating at the angles of stairs' the realisation came over me with full force that a good part of the remainder of my life was going to be spent finding errors in my own programs." - Maurice Wilkes
+
+Web applications undergo the same unit, integration and system testing as traditional desktop applications. But because web application clients vary so greatly, teams might perform some additional testing, such as:
+
+* Security
+* Performance, Load, and Stress
+* HTML/CSS validation
+* Accessibility
+* Usability
+* Cross-browser
+
+Many types of tests are automatable. At the component level, one of the xUnit packages can be a helpful tool. Or an organization can create its own unit testing framework. At the GUI level, Watir or iMacros are useful.
 
 ## Programming Languages
 
@@ -87,41 +101,51 @@ The front-end of a web page is made of three things:
 
 ### Back-End:
 
-# Back-End Web Development
+#### Databases
 
-## Databases
+An organized collection of information.
 
-### Relational
-* These databases that have a collection of tables of data items, all of which is formally described and organized according to the relational model. Data in a single table represents a relation, from which the name of the database type comes. In typical solutions, tables may have additionally defined relationships with each other.
+##### Types of Databases
+* **Relational**
+	* These databases that have a collection of tables of data items, all of which is formally described and organized according to the relational model. Data in a single table represents a relation, from which the name of the database type comes. In typical solutions, tables may have additionally defined relationships with each other. Two of the most popular relational databases are MySQL and PostgreSQL.
 
-	#### Examples
-	* MySQL
-	* PostgreSQL
-
-### NoSQL
-* A NoSQL database provides a mechanism for storage and retrieval of data that employs less constrained consistency models than traditional relational databases. Motivations for this approach include simplicity of design, horizontal scaling and finer control over availability. NoSQL databases are often highly optimized key–value stores intended for simple retrieval and appending operations, with the goal being significant performance benefits in terms of latency and throughput. NoSQL databases are finding significant and growing industry use in big data and real-time web applications.[1] NoSQL systems are also referred to as "Not only SQL" to emphasize that they may in fact allow SQL-like query languages to be used.
-
-	#### Examples
-	* MongoDB
-	* Redis
+* **NoSQL**
+	* A NoSQL database provides a mechanism for storage and retrieval of data that employs less constrained consistency models than traditional relational databases. Motivations for this approach include simplicity of design, horizontal scaling and finer control over availability. NoSQL databases are often highly optimized key–value stores intended for simple retrieval and appending operations, with the goal being significant performance benefits in terms of latency and throughput. NoSQL databases are finding significant and growing industry use in big data and real-time web applications. NoSQL systems are also referred to as "Not only SQL" to emphasize that they may in fact allow SQL-like query languages to be used. The most popular relational databases are MongoDB.
 
 ## APIs (Application Programming Interfaces)
 * In addition to accessing databases or computer hardware, such as hard disk drives or video cards, an API can be used to ease the work of programming graphical user interface components. In practice, many times an API comes in the form of a library that includes specifications for routines, data structures, object classes, and variables. In some other cases, notably for SOAP and REST services, an API comes as just a specification of remote calls exposed to the API consumers
 
-### 3. Testing
+## Version Control
+Handles the management of changes to documents. It allows developers to manage multiple versions of the same codebase, which comes in handy when bugs get accidently introduced and the application needs to be reverted to a previous working state.
 
-Web applications undergo the same unit, integration and system testing as traditional desktop applications. But because web application clients vary so greatly, teams might perform some additional testing, such as:
+* Keep track of the version of code
+* Collaborate with others
+* Keep track of who contributed
+* Open-socurce (release it to the world for free!)
+* **Popular Tools**
+	* GitHub
+	* BitBucket
+* **Version Control Systems:**
+	* Git
+	* Bazaar
+	* Subversion
+	* Mercurial
 
-* Security
-* Performance, Load, and Stress
-* HTML/CSS validation
-* Accessibility
-* Usability
-* Cross-browser
+## Tools
 
-Many types of tests are automatable. At the component level, one of the xUnit packages can be a helpful tool. Or an organization can create its own unit testing framework. At the GUI level, Watir or iMacros are useful.
 
-# Best Practices
+* **Codepen.io** A "sandbox" for creating and editing HTML, CSS, & JavaScript.
+
+* **Sublime Text** Text editor with added funtionality for programming.
+
+* **Browser Developer Tools**
+	* Examples: Firebug(Firefox) & Google Developer Tools(Chrome)
+	* allow developers to debug and test ideas directly in the browser
+	* usually provide a JavaScript console for debugging
+	* show the HTML, CSS, and JS files that makes up the webpage
+	* 3D view of webpage (FireFox)
+
+## Best Practices
 * **D.R.Y** - Don't Repeat Yourself
 * **Commenting**
 * **Testing**
