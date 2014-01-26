@@ -67,17 +67,49 @@ The application of JavaScript to use outside of web pages—for example, in PDF 
 
 * **Array**
 
+	An array type is a data type that is meant to describe a collection of elements (values or variables), each selected by one or more indices (identifying keys) that can be computed at run time by the program. It can store any data type, such as strings, numbers, hashes, and other arrays.
+
 	```
-	var x = [1,2,3,'hello', true];
+	var newArray = [1, 2, "kittens", true, [1,2,3], { kittenSound: 'meow}]
 	```
 
-	* used to store lists of values
+	The values of an array are accessed by their index number.
+
+	```
+	newArray[0] // 1
+	```
+
+	**Note** Array indexes start at 0
+
+	```
+	new_array[2] // 'kittens'
+	```
+
+	You can also access a range of values in an array using a range.
+
+	```
+	new_array[0..2] // [1,2,'kittens']
+	```
 
 * **Object**
 
 	```
 	var x = { cat: 'feline', dog: 'canine' }
 	```
+
+	* used to organize data into key-value pairs
+
+	* the keys in an object can be assigned to any data type, including another object
+
+	* Values inside of an object are accessed through their keys. You can do this in two ways:
+		```
+		x["cat"] /** returns feline */
+		```
+
+		```
+		x.cat /** returns feline */
+		```
+
 
 * **Functions**
 
@@ -96,24 +128,11 @@ var x = 'Meowcakes!';
 ```
 
 * used to store values, which can be strings, arrays, objects, functions, or boolean values
+
 * You can also declare a variable without an initial value for later use
 
 ```
 var x;
-```
-
-* used to organize data into key-value pairs
-* the keys in an object can be assigned to any data type, including another object
-* Values inside of an object are accessed through their keys. You can do this in two ways:
-
-```
-var x = {
-	cat: 'feline'
-}
-
-x["cat"] /** returns feline */
-
-x.cat /** returns feline */
 ```
 
 ## Converting values
