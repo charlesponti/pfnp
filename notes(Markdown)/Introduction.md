@@ -51,6 +51,13 @@ User experience (UX) involves a person's behaviors, attitudes, and emotions abou
 
 Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding.
 
+#### What You
+How are users accessing your site?
+* desktop or mobile?
+* phone or tablet?
+* internationalization
+* user disabilities
+
 ### 3. Testing
 
 > "As soon as we started programming, we found to our surprise that it wasn't as easy to get programs right as we had thought. Debugging had to be discovered. It was on one of my journeys between the EDSAC room and the punching equipment that 'hesitating at the angles of stairs' the realisation came over me with full force that a good part of the remainder of my life was going to be spent finding errors in my own programs." - Maurice Wilkes
@@ -77,6 +84,10 @@ Many types of tests are automatable. At the component level, one of the xUnit pa
 
 
 ![Frond-End & Back-End Development](http://signedon.com/wp-content/uploads/2012/07/signedon-frontend-backend1.png)
+
+## Frameworks & Libraries
+
+A web application framework (WAF) is a software framework that is designed to support the development of dynamic websites, web applications, web services and web resources. The framework aims to alleviate the overhead associated with common activities performed in web development. For example, many frameworks provide libraries for database access, templating frameworks and session management, and they often promote code reuse.
 
 ## Front-End Development
 Front-end or client-side development is a relatively obscure Internet discipline. Historically, this role has been known under several aliases, htmler, web designer, coder, frontender and so on, but its core functions remain the same while expanding with the progress of the Internet. It is a hinge role that requires both aesthetic sensitivity and programmatic rigor.
