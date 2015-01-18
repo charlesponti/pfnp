@@ -1,4 +1,4 @@
-pfnp
-====
+# Notice
+## This repository has been deprecated. It's contents have been updated and rolled into [DevNotes](http://github.com/theponti/devnotes). 
 
-Notes from Programming for Non-Programmers @ General Assembly
+### You can view the notes at [DevNotes](http://theponti.github.io/devnotes)
